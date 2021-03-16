@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+  font-size: 0;  
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.buttons {
+  margin: 0 100px;
+}
+
+button {
+  height: 30px;
+  background-color: cyan;
+  border: none;
+  margin-right: 8px;
+}
+
+#first-btn, #third-btn, #fourth-btn {
+  width: 80px;
+}
+
+#second-btn {
+  width: 120px;
+}
+
+section {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 75px 100px 5px 100px;
+}
+
+main, aside {
+  height: 500px;  
+}
+
+main {
+  flex-grow: 3;
+  background-color: yellow;
+}
+
+aside {
+  flex-grow: 1;
+  background-color: lime;
+}
+
+footer {
+  height: 80px;
+  background-color: lightgrey;
+  margin: 0 100px;
+}

@@ -1,0 +1,109 @@
+/*==WITHOUT ERIC MEYER RESET==*/
+/*==BOX MODEL SET-UP==*/
+* {
+  box-sizing: border-box;
+}
+
+/*==GENERAL STYLES==*/
+body {
+  margin: 0;
+}
+
+.layout {
+  font-size: 19px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+  color: #222;  
+}
+
+/*==MARGIN DECLARATION==*/
+article, h1, h2, hr, blockquote, .personal-interests ul{
+margin-top: 3rem;
+margin-bottom: 0;
+}
+
+/*==ARTICLE, SECTION and HEADER TEXT STYLES==*/
+article, section, .hi, .anakin {
+  width: 45vw;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+/*==HEADER WITH BACKGROUND IMAGE==*/
+header {
+  height: 25rem;
+  background: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png") no-repeat center/cover;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.25rem;
+  text-align: left; 
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1;
+  padding-top: 15rem;
+}
+
+.anakin {
+  font-size: 4.375rem;
+}
+
+/*==HEADINGS STYLES==*/
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/*==BLOCKQUOTE STYLES==*/
+blockquote {
+  background-color: #383838;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3rem;
+  padding: 3rem;
+  width: 53vw;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+blockquote::before {
+  content: '“';
+  content: open-quote;
+  font-size: 8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 85%;
+}
+
+blockquote:after {
+  visibility: hidden;
+  content: close-quote;
+}
+
+/*==LISTS STYLES==*/
+li {
+  list-style-type: square;
+}
+
+.personal-interests ul {
+  margin-bottom: 2.75rem;
+}
+
+/*==HORIZONTAL LINE STYLES==*/
+
+hr {
+  width: 60vw;
+  margin: 0 auto;
+  height: 3px; 
+  background-color: #222;
+  border: none;
+}

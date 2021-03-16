@@ -1,0 +1,11 @@
+p {
+  background-color: #0D91A1; 
+  color: #015668;
+  width: 170px;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  border: 5px solid #7DCE94;
+  font-family: 'RocknRoll One', sans-serif;
+}

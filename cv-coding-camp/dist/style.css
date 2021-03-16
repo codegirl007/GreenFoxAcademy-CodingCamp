@@ -1,0 +1,159 @@
+/*==WITHOUT ERIC MEYER RESET==*/
+/*==BOX MODEL SET-UP==*/
+* {
+  box-sizing: border-box;
+}
+
+/*==GENERAL STYLES==*/
+body {
+  margin: 0;
+}
+
+.layout {
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #222;  
+}
+
+/*==MARGIN DECLARATION==*/
+.left-block, h1, h2  {
+margin-top: 3rem;
+margin-bottom: 0;
+}
+
+#courses {
+  margin-bottom: 3rem;
+}
+
+section li {
+  margin-top: 0.5rem;
+}
+
+#pict {
+  margin-top: 0;
+}
+
+/*==NAVIGATION STYLES==*/
+#navigation {
+  background-color: #4bc44e;
+  width: 100%;
+  padding: 0;  
+  margin: 0;
+  clear: both;
+}
+
+#navigation ul {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  padding-right: 8rem;
+  padding-left: 8rem;
+  margin: 0;
+}
+
+#navigation li {
+  display: flex;
+  flex: 1 1 auto;
+  font-size: 1.3em;
+  max-width: 25%;
+  line-height: 2em;
+  list-style-type: none;
+}
+
+a {
+  flex: 1 1 auto;
+  display: block;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#navigation li:hover {
+  background-color: #303030;
+}
+
+#navigation li:hover > a {
+    color: white;
+}
+
+/*==FLEXBOX==*/
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left-block {
+  flex: 1;  
+}
+
+.right-block {
+  flex: 2;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#motivation {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+
+/*==HEADER WITH BACKGROUND IMAGE==*/
+header {
+  background: url("https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/11800407_10207581681090048_11278471590419526_n.jpg?_nc_cat=109&ccb=3&_nc_sid=09cbfe&_nc_ohc=qxic_4fLVIAAX-0D_yB&_nc_ht=scontent-frt3-1.xx&oh=c5bdd9c5f00cfaa85ccef2a16dad60c7&oe=6065BB63");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 3rem;
+  text-align: center; 
+  height: 25rem;
+  padding: 20rem 3rem 0 3rem;
+}
+
+#jana {
+  color: hsla(0,0%,0%,.9);
+  background-color: hsla(0,0%,100%,.5);
+}
+
+/*==LEFT BLOCK STYLES==*/
+section.left-block {
+  background-color: #4bc44e;
+  color: black;
+  font-size: 1.2rem;
+  padding: 3rem;
+  text-align: left;
+  height: 70%;
+}
+
+strong {
+  text-transform: uppercase;
+  font-size: 1.3rem;  
+}
+
+/*==HEADINGS STYLES==*/
+
+h1 {
+  text-transform: uppercase;
+  color: #18911B;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  line-height: 1;
+  color: #4bc44e;
+}
+
+/*==LISTS STYLES==*/
+li {
+  list-style-type: square;
+}

@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-size: 0;  
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  height: 30px;
+  background-color: cyan;
+  border: none;
+  margin: 8px;
+}
+
+#first-btn, #third-btn {
+  width: 80px;
+}
+
+#second-btn {
+  width: 120px;
+}
+
+section {
+  display: flex;
+}
+
+main, aside {
+  height: 500px;  
+}
+
+main {
+  flex-grow: 3;
+  background-color: yellow;
+}
+
+aside {
+  flex-grow: 1;
+  background-color: lime;
+}

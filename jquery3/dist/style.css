@@ -1,0 +1,25 @@
+h1, h2 {
+  font-family: 'Volkhov', serif;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+  text-decoration: underline;
+}
+
+.pink {
+  color: magenta;
+  text-decoration: underline;
+}

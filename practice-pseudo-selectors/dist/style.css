@@ -1,0 +1,19 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  border: 2px solid black;
+  width: 260px;
+  text-align: left;
+  padding: 20px;
+  border-top: none;
+}
+
+.bottom {
+  border-bottom: none;
+}
+
+li:hover {
+  background-color: red;
+}
